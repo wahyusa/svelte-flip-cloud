@@ -5,7 +5,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   plugins: [svelte()],
   // if env is development use / by default or use my github repo name
-  base: process.env.NODE_ENV === 'development' ? '/' : '/NFT-preview-card-component/',
+  base: process.env.NODE_ENV === 'development' ? '/' : '/svelte-flip-cloud/',
   build: {
     outDir: 'docs'
   }
